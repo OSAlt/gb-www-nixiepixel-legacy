@@ -1,0 +1,444 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower&display=swap');
+
+// Variables
+@import 'variables';
+
+// Animations
+@import 'animations';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/***** Font Sizes *****/
+h1, .h1 {
+  font-size: 2rem;
+}
+h2, .h2 {
+  font-size: 1.75rem;
+}
+h3, .h3 {
+  font-size: 1.5rem;
+}
+h4, .h4 {
+  font-size: 1.25rem;
+}
+h5, .h5 {
+  font-size: 1rem;
+}
+h6, .h6, figcaption, .figure-caption, p {
+  font-size: 0.75rem;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title, .card-title {
+  font-family: $heading-font;
+}
+
+/***** Text Colors *****/
+.text-blue {
+  color: $blue;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-pink {
+  color: $pink;
+}
+
+.text-purple {
+  color: $purple;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.text-light {
+  color: $light;
+}
+
+/***** Background Colors *****/
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-pink {
+  background-color: $pink;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+/***** Border Colors *****/
+.border-blue {
+  border-color: $blue;
+}
+
+.border-green {
+  border-color: $green;
+}
+
+.border-pink {
+  border-color: $pink;
+}
+
+.border-purple {
+  border-color: $purple;
+}
+
+.border-black {
+  border-color: $black;
+}
+
+.border-white {
+  border-color: $white;
+}
+
+.border-dark {
+  border-color: $dark;
+}
+
+.border-light {
+  border-color: $light;
+}
+
+.border-transparent {
+  border: 1px solid transparent;
+}
+
+
+/***** Miscellaneous Classes *****/
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.fa-facebook-f, .fa-github, .fa-instagram, .fa-keybase, .fa-patreon, .fa-twitch, .fa-twitter, .fa-youtube {
+ color: $light;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+
+/*******************
+##### SECTIONS #####
+*******************/
+#stats, #geekbeacon {
+  min-height: 100vh;
+}
+
+#about, #media, #contact {
+  background-color: rgba(40,40,40,0.75);
+}
+
+#intro {
+  height: 93vh;
+  position: relative;
+
+  & .fa-chevron-down {
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+    font-size: 5rem;
+    color: rgba(225, 225, 225, 0.75);
+    stroke: rgba(0, 0, 0, 0.75);
+    stroke-width: 15;
+    opacity: 0;
+    animation: fadeinHeaderText 2s forwards 2s;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.5);
+      stroke: rgba(225, 225, 225, 0.5);
+      stroke-width: 15;
+      cursor: pointer;
+    }
+  }
+
+}
+
+#headerImg {
+  background-image: url('/imgs/NP-mobile.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadein 2s ease-in-out;
+}
+
+#about {
+
+  & ul li {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
+
+#stats {
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+
+  & div:first-of-type {
+    height: 100vh;
+  }
+
+  &:before {
+    content: " ";
+    white-space: pre;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/imgs/llamas.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+}
+
+#media {
+
+  & ul li {
+    background-color: rgba(50,50,50,0.9);
+  }
+}
+
+#geekbeacon {
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+
+  &:before {
+    content: " ";
+    white-space: pre;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/imgs/gb.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  & div {
+
+    & div:nth-of-type(1) {
+      opacity: 0.8;
+    }
+
+    & div:nth-of-type(2) {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+  }
+}
+
+ /**********************************
+ ##### Miscellaneous Selectors #####
+ **********************************/
+#toTop {
+  overflow: hidden;
+  z-index: 2;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  text-decoration: none;
+}
+
+/************************
+##### MEDIA QUERIES #####
+************************/
+
+/* Breakpoint for Llama Chart */
+@media (min-width: 548px) {
+  #stats div:first-of-type {
+    height: 50vh;
+  }
+}
+
+/* Small devices (landscape phones; 544px and up) */
+@media (min-width: 544px) {
+  h1, .h1 {
+    font-size: 1.75rem;
+  }
+  h2, .h2 {
+    font-size: 1.5rem;
+  }
+  h3, .h3 {
+    font-size: 1.25rem;
+  }
+  h4, .h4 {
+    font-size: 1rem;
+  }
+  h5, .h5 {
+    font-size: 0.75rem;
+  }
+  h6, .h6 {
+    font-size: .5rem;
+  }
+  figcaption, .figure-caption, p {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets; 768px and up) */
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2rem;
+  }
+  h2, .h2 {
+    font-size: 1.75rem;
+  }
+  h3, .h3 {
+    font-size: 1.5rem;
+  }
+  h4, .h4 {
+    font-size: 1rem;
+  }
+  h5, .h5 {
+    font-size: .75rem;
+  }
+  h6, .h6 {
+    font-size: .5rem;
+  }
+
+  // Use web based Header image
+  #headerImg {
+    background-image: url('/imgs/NP.jpg');
+  }
+}
+
+/* Large devices (desktops; 992px and up) */
+@media (min-width: 992px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+  h2, .h2 {
+    font-size: 2rem;
+  }
+  h3, .h3 {
+    font-size: 1.75rem;
+  }
+  h4, .h4 {
+    font-size: 1.5rem;
+  }
+  h5, .h5 {
+    font-size: 1.25rem;
+  }
+  h6, .h6, p {
+    font-size: 1rem;
+  }
+}
+
+/* Extra large devices (large desktops; 1200px and up) */
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 3rem;
+  }
+  h2, .h2 {
+    font-size: 2.75rem;
+  }
+  h3, .h3 {
+    font-size: 2.5rem;
+  }
+  h4, .h4 {
+    font-size: 2rem;
+  }
+  h5, .h5 {
+    font-size: 1.75rem;
+  }
+  h6, .h6 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra small devices (header breakpoint) */
+@media(max-width: 419px) {
+  #socialWeb {
+    display:none;
+  }
+
+  #socialMobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  #socialMobile .list-inline-item {
+    margin-right: 1em;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+@media(min-width: 420px) {
+  #socialMobile {
+    display: none;
+  }
+
+  .xxs-divider {
+    display: none;
+  }
+}
+
+
+/***********************
+###### ANIMATIONS ######
+***********************/
+
+/* Fades In Heading Image */
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Fades In Heading Text */
+@keyframes fadeinHeaderText {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
