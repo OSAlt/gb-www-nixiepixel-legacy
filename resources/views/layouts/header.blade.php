@@ -1,6 +1,6 @@
 <header class="sticky-top bg-dark rounded-bottom">
     <nav class="navbar navbar-expand-md navbar-dark border-transparent rounded-bottom">
-        <a data-scroll class="navbar-brand pb-2" href="/">
+        <a data-scroll class="navbar-brand pb-2" href="#">
             <img class="mb-1 mr-1" src="/imgs/nav-logo.png" alt="Logo" />
         </a>
 

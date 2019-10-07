@@ -89,48 +89,6 @@ let fallbackData = {'facebook' : 50000, 'twitch' : 2000, 'twitter' : 32300, 'ins
 let successCount = 0;
 let count = 0;
 
-// function fetchData(type) {
-//     count++;
-//
-//     fetch(`https://social.geekbeacon.org/api/social/${type.toUpperCase()}/count`)
-//         .then((response) => response.json())
-//         .then(function (response) {
-//
-//             //check if response is a number, if not use fallback data
-//             if(!isNaN(response)) {
-//                 data[type] = response;
-//             } else {
-//                 data[type] = fallbackData[type];
-//             }
-//
-//             successCount++;
-//
-//             // create the chart once all data is obtained
-//             if(successCount === Object.keys(data).length) {
-//                 makeChart();
-//             }
-//         })
-//         .catch(function (error) {
-//             console.log(error);
-//         });
-// }
-
-// Loop through the array to fetch data for each item
-// Object.keys(data).forEach(function (key) {
-//     fetchData(key);
-//
-//     //if fails to reach api, use fallback data
-//     if(count === Object.keys(data).length && successCount !== Object.keys(data).length) {
-//         data.facebook = fallbackData.facebook;
-//         data.twitter = fallbackData.twitter;
-//         data.twitch = fallbackData.twitch;
-//         data.discord = fallbackData.discord;
-//         data.instagram = fallbackData.instagram;
-//         data.youtube = fallbackData.youtube;
-//         makeChart();
-//     }
-// });
-
 // Fetch the data
 fetch(`https://social.geekbeacon.org/api/social/count/all`)
     .then((response) => response.json())
@@ -150,8 +108,6 @@ fetch(`https://social.geekbeacon.org/api/social/count/all`)
 
 /* Stats Chart */
 function makeChart() {
-
-    console.log(data);
 
     am4core.useTheme(am4themes_animated); //use animations
     let chart = am4core.create("chart", am4charts.SlicedChart); //create base sliced chart
