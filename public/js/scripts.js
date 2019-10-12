@@ -90,7 +90,7 @@ let successCount = 0;
 let count = 0;
 
 // Fetch the data
-fetch(`https://social.geekbeacon.org/api/social/count/all`)
+fetch(`https://social.geekbeacon.org/api/v1.0/social/count/all`)
     .then((response) => response.json())
     .then(function (response) {
 
