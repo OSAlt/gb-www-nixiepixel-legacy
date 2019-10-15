@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/stats', function () {
+    return view('full-stats');
+});
+
 Route::get('contact', 'MailController@sendEmail')->name('contact');
