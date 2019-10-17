@@ -63,10 +63,12 @@ $(document).ready(function() {
 
     // MEDIA SECTION
     animateCSS('#media > h1', 'flash');
-    animateCSS('#media ul li:nth-of-type(1)', 'slideInUp');
-    animateCSS('#media ul li:nth-of-type(2)', 'slideInDown');
-    animateCSS('#media ul li:nth-of-type(3)', 'slideInUp');
-    animateCSS('#media ul li:nth-of-type(4)', 'slideInDown');
+    animateCSS('#media ul li:nth-of-type(1)', 'fadeIn');
+    animateCSS('#media ul li:nth-of-type(2)', 'fadeIn');
+    animateCSS('#media ul li:nth-of-type(3)', 'fadeIn');
+    animateCSS('#media ul li:nth-of-type(4)', 'fadeIn');
+    animateCSS('#media ul li:nth-of-type(5)', 'fadeIn');
+    animateCSS('#media ul li:nth-of-type(6)', 'fadeIn');
 
     // GEEKBEACON SECTION
     animateCSS('#geekbeacon > h1', 'bounce');

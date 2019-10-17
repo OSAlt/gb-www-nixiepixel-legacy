@@ -30,11 +30,11 @@ class MailController extends Controller
                 ),
             ));
             $response = curl_exec($curl); //assign the returned data to a variable
-            $err = curl_error($curl); //capture error
+            $status = curl_getinfo($curl, CURLINFO_HTTP_CODE); //get status code
             curl_close($curl); //close the connection
 
-            if ($err) {
-                abort(400);
+            if ($status !== 200) {
+                return 'nixie@nixiepixel.com';
             } else {
                 $data = json_decode($response);
 

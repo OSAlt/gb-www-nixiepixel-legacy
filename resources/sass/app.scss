@@ -240,6 +240,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title, .card-title {
 
   & ul li {
     background-color: rgba(50,50,50,0.9);
+
+    & a {
+      color: $light;
+
+      &:hover {
+        color: $light;
+        text-decoration: none;
+      }
+    }
+
+    & .figure-caption {
+      max-height: 200px;
+      white-space: pre-line;
+      overflow: auto;
+    }
   }
 }
 
@@ -321,7 +336,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title, .card-title {
   h6, .h6 {
     font-size: .5rem;
   }
-  figcaption, .figure-caption, p {
+  p {
     font-size: 1rem;
   }
 }

@@ -20,7 +20,7 @@
 
     @component('components.sections.stats')@endcomponent
 
-    @component('components.sections.media')@endcomponent
+    @component('components.sections.media', ['media'=>$media])@endcomponent
 
     @component('components.sections.geekbeacon')@endcomponent
 
