@@ -26,13 +26,11 @@
                 <label class="col-form-label-sm" for="subject">Subject</label>
                 <select class="form-control" name="subject" id="subject">
                     <option value="">Choose...</option>
-                    <option value="General">General</option>
-                    <option value="Question">Question</option>
-                    <option value="Comment">Comment</option>
-                    <option value="Business">Business</option>
-                    <option value="Sponsorship">Sponsorship</option>
-                    <option value="Collaborations">Collaborations</option>
-                    <option value="Advertising">Advertising</option>
+                    @if($subjects !== NULL)
+                        @foreach($subjects as $subj)
+                            <option value="{{$subj}}">{{$subj}}</option>
+                        @endforeach
+                    @endif
                 </select>
 
                 @if ($errors->has('subject'))

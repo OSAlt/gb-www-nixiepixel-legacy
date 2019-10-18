@@ -24,6 +24,6 @@
 
     @component('components.sections.geekbeacon')@endcomponent
 
-    @component('components.sections.contact')@endcomponent
+    @component('components.sections.contact', ['subjects'=>$subjects])@endcomponent
 
 @endsection
