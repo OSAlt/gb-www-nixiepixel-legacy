@@ -114,7 +114,7 @@ function makeChart() {
     am4core.useTheme(am4themes_animated); //use animations
     let chart = am4core.create("chart", am4charts.SlicedChart); //create base sliced chart
 
-//create data
+// Create data
     chart.data = [{
         "name": "YouTube",
         "value": data.youtube
@@ -142,7 +142,7 @@ function makeChart() {
     llamaChart.alignLabels = false; //hide alignment lines for labels
     llamaChart.orientation = "horizontal"; //make chart vertical
 
-//assign colors to sections
+// Assign colors to sections
     llamaChart.colors.list = [
         am4core.color("rgba(159,140,215, 0.7)"), //YT
         am4core.color("rgba(128,188,207, 0.7)"), //TT
