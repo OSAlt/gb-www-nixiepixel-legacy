@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  www:
+    image: pottava/s3-proxy
+    env_file: .env
+    ports:
+      - 8090:80
