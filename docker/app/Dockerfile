@@ -32,6 +32,7 @@ RUN cd /app && \
 
 WORKDIR /app
 VOLUME /app
+VOLUME /app/public/storage
 
 USER app_user
 
