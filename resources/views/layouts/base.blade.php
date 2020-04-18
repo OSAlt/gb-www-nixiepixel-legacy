@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('css/app.css', env('REDIRECT_HTTPS')) }}" rel="stylesheet"/>
 </head>
 @section('title', 'NixiePixel')
     <body class="container-fluid">
@@ -18,17 +18,17 @@
                 @yield('content')
             </main>
         </div>
-        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/app.js', env('REDIRECT_HTTPS')) }}"></script>
         <script src="https://kit.fontawesome.com/4d9859e450.js"></script>
-        <script src="{{ asset('js/smooth-scroll.min.js') }}"></script>
+        <script src="{{ asset('js/smooth-scroll.min.js', env('REDIRECT_HTTPS')) }}"></script>
 
         {{-- Begin Scripts For Chart --}}
-        <script src="{{ asset('js/core.js') }}"></script>
-        <script src="{{ asset('js/charts.js') }}"></script>
-        <script src="{{ asset('js/animated.js') }}"></script>
+        <script src="{{ asset('js/core.js', env('REDIRECT_HTTPS')) }}"></script>
+        <script src="{{ asset('js/charts.js', env('REDIRECT_HTTPS')) }}"></script>
+        <script src="{{ asset('js/animated.js', env('REDIRECT_HTTPS')) }}"></script>
         {{-- End Scripts For Chart --}}
 
-        <script src="{{ asset('js/scripts.js') }}"></script>
+        <script src="{{ asset('js/scripts.js', env('REDIRECT_HTTPS')) }}"></script>
         @yield('scripts')
     </body>
 </html>
