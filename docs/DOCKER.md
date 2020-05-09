@@ -4,6 +4,18 @@
 
 copy env-template to .env and update the settings accordingly.  The default should just work.
 
+for develomennt:
+
+```sh
+ln -s develop.yml docker-compose.yml
+```
+
+for production.  The main difference production expects an external resources for the database
+
+```sh
+ln -s production.yml docker-compose.yml
+```
+
 ## Create a user account
 
 ```sh
