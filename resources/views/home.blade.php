@@ -22,8 +22,9 @@
 
     @component('components.sections.media', ['media'=>$media])@endcomponent
 
-    @component('components.sections.geekbeacon')@endcomponent
+    <!-- @component('components.sections.geekbeacon')@endcomponent -->
 
     @component('components.sections.contact', ['subjects'=>$subjects])@endcomponent
+
 
 @endsection

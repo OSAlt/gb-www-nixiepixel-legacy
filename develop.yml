@@ -11,7 +11,7 @@ services:
         - ./public:/app/public
     restart: always
     ports:
-      - "9001:9000"
+      - "9000:9000"
   nix_db:
     image: mysql:5.7.29
     restart: always

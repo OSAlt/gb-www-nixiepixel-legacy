@@ -11,9 +11,9 @@ done
 ## Compiles SASS and any preprocessing
 ## Ideally this would compile the SCSS but that's broken...so....
 #npm run dev
-npm run production
-#npm run watch &
-#sleep 30
+#npm run production
+npm run watch &
+sleep 30
 
 
 
