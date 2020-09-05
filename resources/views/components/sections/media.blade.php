@@ -7,10 +7,10 @@
                         <a href="{{$item['sourceUri']}}" target="_blank">
                             <div class="container d-flex flex-column h-100">
                                 <div class="row justify-content-center flex-column">
-                                    <figure class="figure">
-                                        <img class="figure-img img-fluid img-thumbnail" src="{{$item['mediaUrl']}}" height="200" width="200">
+                                    <figure class="figure"> 
+                                        <!-- <img class="figure-img img-fluid img-thumbnail" src="{{$item['mediaPreview']}}" height="200" width="200"> -->
                                         <figcaption class="figure-caption text-small">{{$item['text']}}</figcaption>
-                                    </figure>
+                                    </figure> 
                                 </div>
                                 <div class="row justify-content-around mt-auto">
                                     <p><i class="fa fa-heart text-danger"></i> {{$item['socialLove']['likes']}}</p>
