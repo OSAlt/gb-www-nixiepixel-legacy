@@ -1,3 +1,4 @@
+
 /* Smooth Scrolling */
 document.addEventListener("DOMContentLoaded", () => {
     const smoothScroll = new SmoothScroll('[data-scroll]');
