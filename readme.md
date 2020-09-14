@@ -1,5 +1,9 @@
+
 # nixiepixel.com
 **nixiepixel.com** is a website built specifically for NixiePixel.
+
+[![Build Status](https://travis-ci.com/osalt/gb-www-nixiepixel.svg?)](https://travis-ci.com/osalt/gb-www-nixiepixel)
+
 
 ___
 
