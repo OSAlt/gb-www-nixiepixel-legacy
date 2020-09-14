@@ -17,6 +17,10 @@
     </section>
 
     @component('components.sections.about')@endcomponent
+    <div align="center">
+        <p style="color: #ffffff">Read more about <a href="/nixie">my story</a></p>
+    </div>
+
 
     @component('components.sections.stats')@endcomponent
 

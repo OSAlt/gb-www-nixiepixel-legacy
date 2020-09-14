@@ -14,3 +14,4 @@
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('stats', 'HomeController@stats')->name('stats');
 Route::post('contact', 'MailController@sendEmail')->name('contact');
+Route::get('nixie', 'HomeController@nixie')->name('nixie');

@@ -87,4 +87,14 @@ class HomeController extends Controller
         return view('full-stats');
     }
 
+
+    public function nixie() {
+        // $media = $this->getMedia();
+        // $subjects = $this->getSubjects();
+        // return view('home', compact('media', 'subjects'));
+        // return "<h1> Hello Nixie </h1>";
+        $subjects = $this->getSubjects();
+        return view('about-nixie', compact('subjects'));
+    }
+
 }
