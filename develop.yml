@@ -2,16 +2,19 @@ version: '3.7'
 services:
   nix_www:
     image: geekbeacon/nixie_www:latest
+    command: devel
     build:
         context: . 
         dockerfile: docker/app/Dockerfile
     env_file: .env
     volumes:
+        - ./app:/app/app
+        - ./routes:/app/routes
         - ./resources:/app/resources
         - ./public:/app/public
     restart: always
     ports:
-      - "9001:9000"
+      - "9000:9000"
   nix_db:
     image: mysql:5.7.29
     restart: always

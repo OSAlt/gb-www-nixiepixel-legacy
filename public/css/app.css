@@ -14145,6 +14145,36 @@ h6,
   min-height: 100vh;
 }
 
+#about-me {
+  color: white;
+  padding-right: 50px;
+  padding-top: 50px;
+  background-color: rgba(40, 40, 40, 0.75);
+}
+
+#header .btn-secondary,
+#header .btn-secondary.dropdown-toggle {
+  background-color: #4f4f4f;
+}
+
+#header .btn-secondary.dropdown-toggle,
+#header .btn-secondary.dropdown-toggle.dropdown-toggle {
+  background-color: #4f4f4f;
+}
+
+#header.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: #4f4f4f;
+  border: 0;
+}
+
 #about,
 #media,
 #contact {

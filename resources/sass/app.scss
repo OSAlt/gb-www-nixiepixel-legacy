@@ -164,6 +164,43 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title, .card-title {
   min-height: 100vh;
 }
 
+:dropdownMenuButton {
+
+}
+
+#about-me {
+color:white; 
+padding-right: 50px;  
+padding-top: 50px;     
+background-color: rgba(40, 40, 40, 0.75);
+}
+
+#header {
+  & .btn-secondary, .btn-secondary.dropdown-toggle {
+    background-color:  #4f4f4f;
+    &.dropdown-toggle {
+    background-color:  #4f4f4f;
+    }
+  }
+  // & button {
+  //   // color: #fafafa;
+  //   background-color:  #4f4f4f;
+  //   // border-color: #4f4f4f;
+  // }
+  &.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #4f4f4f;
+    border: 0;
+}
+}
+
 #about, #media, #contact {
   background-color: rgba(40,40,40,0.75);
 }
