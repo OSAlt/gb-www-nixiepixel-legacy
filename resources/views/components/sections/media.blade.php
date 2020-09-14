@@ -1,5 +1,5 @@
 <section id="media" class="pb-4 pt-5">
-    <h1 class="text-white text-center mt-3 mb-4">This Is Some Of My Media!</h1>
+    <h1 class="text-white text-center mt-3 mb-4">Checkout My Insta Love!</h1>
     <ul class="list-unstyled row justify-content-center justify-content-md-around text-light">
         @if($media !== NULL)
             @foreach($media as $item)
@@ -8,7 +8,6 @@
                             <div class="container d-flex flex-column h-100">
                                 <div class="row justify-content-center flex-column">
                                     <figure class="figure"> 
-                                        <!-- <img class="figure-img img-fluid img-thumbnail" src="{{$item['mediaPreview']}}" height="200" width="200"> -->
                                         <figcaption class="figure-caption text-small">{{$item['text']}}</figcaption>
                                     </figure> 
                                 </div>

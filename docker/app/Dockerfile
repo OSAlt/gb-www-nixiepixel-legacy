@@ -20,5 +20,5 @@ VOLUME /app/public
 
 USER root
 
-CMD /app/docker/app/docker_run.sh
+ENTRYPOINT [ "/app/docker/app/docker_run.sh" ]
 EXPOSE 9000

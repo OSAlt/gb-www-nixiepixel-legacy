@@ -6,10 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index() {
-
-        // Create function to get IG media from api
-        function getMedia(){
+    // Create function to get IG media from api
+    private function getMedia(){
             $curl = curl_init(); //initialize the curl
             $url = 'https://social.geekbeacon.org/api/v1.0/social/INSTAGRAM/activity?count=6'; //set the api url
             $media = NULL;
@@ -39,8 +37,8 @@ class HomeController extends Controller
             return $media;
         }
 
-        // Create function to pull subjects from contact list api response
-        function getSubjects() {
+// Create function to pull subjects from contact list api response
+    private function getSubjects() {
             $curl = curl_init(); //initialize the curl
             $url = 'https://social.geekbeacon.org/api/v1.0/contact/list'; //set the api url
             $subjects = array();
@@ -73,13 +71,20 @@ class HomeController extends Controller
             return $subjects;
         }
 
+    public function index() {
+
+    
+
+        
+
         // Instantiate function to pull and assign api data
-        $media = getMedia();
-        $subjects = getSubjects();
+        $media = $this->getMedia();
+        $subjects = $this->getSubjects();
         return view('home', compact('media', 'subjects'));
     }
 
     public function stats() {
         return view('full-stats');
     }
+
 }
