@@ -43,7 +43,6 @@
 
                 <li class="nav-item"><a data-scroll href="/#contact" class="nav-link text-light">Contact</a></li>
 
-
                 @endif
             </ul>
 

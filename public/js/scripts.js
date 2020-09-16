@@ -1,8 +1,8 @@
 
 /* reCAPTCHA */
-function onSubmit(token) {
-    document.getElementById("contact-btn").submit();
-}
+// function onSubmit(token) {
+//     document.getElementById("contact-btn").submit();
+// }
 
 /* Smooth Scrolling */
 document.addEventListener("DOMContentLoaded", () => {

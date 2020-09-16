@@ -1,6 +1,7 @@
 <section id="contact" class="col-12 py-5">
     <h1 class="text-white text-center mb-3">Contact Me!</h1>
-    <form method="get" action="{{ route('contact') }}" class="form text-light">
+    <form method="POST" action="{{ route('contact') }}" class="form text-light">
+    @csrf
         <div class="form-row justify-content-around">
             <div class="mb-4 col-10 col-md-3">
                 <label class="col-form-label-sm" for="name">Name</label>
@@ -53,7 +54,8 @@
             </div>
         </div>
         <div class="text-center">
-            <button class="btn btn-lg btn-success g-recaptcha" id="contact-btn" data-sitekey="6LfwVswZAAAAAMVDik50YIfey5HIACjNjAM5W-NM" data-callback='onSubmit' data-action='submit'>Send Email</button>
+        <div class="g-recaptcha row justify-content-center mb-3" data-sitekey="6LfQ1MwZAAAAAIjd6phvW4I79ZHgU355OOwUDJdJ"></div>
+        <input id="submit" type="submit" value="Submit" class="btn btn-lg btn-success">
         </div>
     </form>
 
