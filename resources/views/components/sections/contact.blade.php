@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="text-center">
-            <button class="btn btn-lg btn-success g-recaptcha" id="contact-btn" data-sitekey="6LfwVswZAAAAAMVDik50YIfey5HIACjNjAM5W-NM" data-callback='onSubmit' data-action='submit'>Send Email</button>
+            <button class="btn btn-lg btn-success">Send Email</button>
         </div>
     </form>
 
