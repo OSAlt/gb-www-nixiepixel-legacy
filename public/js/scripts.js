@@ -1,4 +1,9 @@
 
+/* reCAPTCHA */
+function onSubmit(token) {
+    document.getElementById("contact-btn").submit();
+}
+
 /* Smooth Scrolling */
 document.addEventListener("DOMContentLoaded", () => {
     const smoothScroll = new SmoothScroll('[data-scroll]');

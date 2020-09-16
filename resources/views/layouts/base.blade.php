@@ -21,6 +21,7 @@
         <script src="{{ asset('js/app.js', env('REDIRECT_HTTPS')) }}"></script>
         <script src="https://kit.fontawesome.com/4d9859e450.js"></script>
         <script src="{{ asset('js/smooth-scroll.min.js', env('REDIRECT_HTTPS')) }}"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
         {{-- Begin Scripts For Chart --}}
         <script src="{{ asset('js/core.js', env('REDIRECT_HTTPS')) }}"></script>
