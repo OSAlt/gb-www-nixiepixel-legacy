@@ -61,7 +61,7 @@ class MailController extends Controller
 
             Mail::send('layouts.contact', ['data' => $data], function ($message) use ($data) {
                 $message->to(getEmail($data['subject']), 'NixiePixel')->subject
-                ($data['subject'] . 'from ' . $data['name'] . ' - NixiePixel.com');
+                ($data['subject'] . ' from ' . $data['name'] . ' - NixiePixel.com');
                 $message->from($data['email'], $data['name']);
             });
 
