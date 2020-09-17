@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="text-center">
-        <div class="g-recaptcha row justify-content-center mb-3" data-sitekey="6LfQ1MwZAAAAAIjd6phvW4I79ZHgU355OOwUDJdJ"></div>
+        <div class="g-recaptcha row justify-content-center mb-3" data-sitekey="{{ config('app.recaptcha_key') }}"></div>
         <input id="submit" type="submit" value="Submit" class="btn btn-lg btn-success">
         </div>
     </form>
