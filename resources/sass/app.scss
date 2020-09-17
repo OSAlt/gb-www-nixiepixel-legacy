@@ -156,16 +156,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title, .card-title {
   }
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 
 /*******************
 ##### SECTIONS #####
 *******************/
 #stats, #geekbeacon {
   min-height: 100vh;
-}
-
-:dropdownMenuButton {
-
 }
 
 #about-me {
@@ -327,6 +327,12 @@ background-color: rgba(40, 40, 40, 0.75);
     & div:nth-of-type(2) {
       background-color: rgba(255, 255, 255, 0.25);
     }
+  }
+}
+
+.form {
+  & #name, #email, #submit {
+    opacity: 1 !important;
   }
 }
 
