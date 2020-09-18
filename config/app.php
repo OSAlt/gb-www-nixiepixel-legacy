@@ -2,9 +2,6 @@
 
 return [
 
-    /* THIS IS THE GOOGLE RECAPTCHA KEY FROM THE .ENV FILE */
-    'recaptcha_key' => env('RECAPTCHA_KEY', "Missing Key"),
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -48,7 +45,6 @@ return [
         '_ENV' => [
             'APP_KEY',
             'DB_PASSWORD',
-            'RECAPTCHA_KEY',
         ],
 
         '_SERVER' => [
