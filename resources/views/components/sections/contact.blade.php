@@ -1,6 +1,6 @@
 <section id="contact" class="col-12 py-5">
     <h1 class="text-white text-center mb-3">Contact Me!</h1>
-    <form method="POST" action="{{ route('contact') }}" class="form text-light">
+    <form method="GET" action="{{ route('contact') }}" class="form text-light">
     @csrf
         <div class="form-row justify-content-around">
             <div class="mb-4 col-10 col-md-3">
