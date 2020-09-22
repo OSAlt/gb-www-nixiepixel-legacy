@@ -51,7 +51,8 @@ class MailController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email',
             'subject' => 'required|string',
-            'message' => 'required|string|min:25'
+            'message' => 'required|string|min:25',
+            'g-recaptcha-response' => 'required'
         ]);
 
         if($validator->fails()) {
