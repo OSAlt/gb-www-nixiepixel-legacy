@@ -54,8 +54,13 @@
             </div>
         </div>
         <div class="text-center">
-        <div class="g-recaptcha row justify-content-center mb-3" data-sitekey="{{ config('app.recaptcha_key') }}"></div>
-        <input id="submit" type="submit" value="Submit" class="btn btn-lg btn-success">
+            <div class="g-recaptcha row justify-content-center" data-sitekey="{{ config('app.recaptcha_key') }}"></div>
+            @if ($errors->has('g-recaptcha-response'))
+                <span class="invalid-feedback d-block mb-2">
+                    <strong>Please check the box to confirm you are not a bot.</strong>
+                </span>
+            @endif
+            <input id="submit" type="submit" value="Submit" class="btn btn-lg btn-success mt-3">
         </div>
     </form>
 
