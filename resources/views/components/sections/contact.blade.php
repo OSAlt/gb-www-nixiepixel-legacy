@@ -15,7 +15,7 @@
                     <!-- <input type="email" style="opacity: 0;" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""> -->
                     <!-- <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="user@domain.tld" value="" style="opacity: 0;"> -->
                     <label class="col-form-label-sm" for="email">Email</label>
-                    <input class="form-control" type="email" name="email" id="email" placeholder="user@domain.tld" value="{{old('email')}}" />
+                    <input class="form-control" type="email" name="_replyto" id="email" placeholder="user@domain.tld" value="{{old('email')}}" />
 
                 </div>
                 <div class="mb-4 col-10 col-md-3">
