@@ -8,14 +8,14 @@
                     <!-- <label class="col-form-label-sm" for="full-name">Full Name</label> -->
                     <!-- <input type="text" name="name" id="full-name" placeholder="Name" required=""> -->
                     <label class="col-form-label-sm" for="name">Name</label>
-                    <input class="form-control" type="text" name="name" id="name" placeholder="Name" value="{{old('name')}}" />
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Name" value="{{old('name')}}" required />
                 </div>
                 <div class="mb-4 col-10 col-md-3">
                     <!-- <label class="col-form-label-sm" for="email-address">Email Address</label> -->
                     <!-- <input type="email" style="opacity: 0;" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""> -->
                     <!-- <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="user@domain.tld" value="" style="opacity: 0;"> -->
                     <label class="col-form-label-sm" for="email">Email</label>
-                    <input class="form-control" type="email" name="_replyto" id="email" placeholder="user@domain.tld" value="{{old('email')}}" />
+                    <input class="form-control" type="email" name="_replyto" id="email" placeholder="user@domain.tld" value="{{old('email')}}" required />
 
                 </div>
                 <div class="mb-4 col-10 col-md-3">
