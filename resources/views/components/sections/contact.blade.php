@@ -1,4 +1,4 @@
-<section id="contact" class="col-12 py-5">
+<section id="contact" class="col-12 py-5 text-white">
     <h1 class="text-white text-center mb-3">Contact Me!</h1>
 
     <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xleadqng" method="post">
