@@ -22,7 +22,7 @@ jobs:
         uses: docker/build-push-action@v2.10.0
         with:
           context: .
-          file: compose/Dockerfile-bot
+          file: docker/app/Dockerfile
           push: false
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
