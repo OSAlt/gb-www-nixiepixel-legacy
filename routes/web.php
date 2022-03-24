@@ -12,7 +12,7 @@
 */
 
 if (env('REDIRECT_HTTPS') === true) {
-    URL::forceSchema('https');
+    URL::forceScheme('https');
 }
 
 Route::get('/', 'HomeController@index')->name('home');
