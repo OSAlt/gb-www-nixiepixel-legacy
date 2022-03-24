@@ -3,7 +3,7 @@
 
     <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xleadqng" method="post">
         <fieldset id="fs-frm-inputs">
-            <div class="form-row justify-content-around">
+            <div class="row justify-content-around">
                 <div class="mb-4 col-10 col-md-3">
                     <!-- <label class="col-form-label-sm" for="full-name">Full Name</label> -->
                     <!-- <input type="text" name="name" id="full-name" placeholder="Name" required=""> -->
@@ -31,7 +31,7 @@
                     </select>
                 </div>
             </div>
-            <div class="form-row mb-4 justify-content-center">
+            <div class="row mb-4 justify-content-center">
                 <div class="col-10 col-md-11">
                     <!-- <label class="col-form-label-sm" for="message">Message</label> -->
                     <!-- <textarea rows="5" class="form-control animated zoomIn" name="message" id="message" placeholder="Message...." required=""></textarea> -->
