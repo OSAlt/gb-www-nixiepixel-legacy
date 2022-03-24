@@ -11,6 +11,10 @@
 |
 */
 
+if (env('REDIRECT_HTTPS') === true) {
+    URL::forceSchema('https');
+}
+
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('stats', 'HomeController@stats')->name('stats');
 Route::get('contact', 'MailController@sendEmail')->name('contact');
