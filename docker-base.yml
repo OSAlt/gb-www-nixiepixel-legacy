@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   base_php:
-    image: geekbeacon/php_base:7.4
+    image: geekbeacon/php_base:8.1
     build:
         context: . 
         dockerfile: docker/base/Dockerfile

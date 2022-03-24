@@ -1,4 +1,4 @@
-FROM geekbeacon/php_base:7.4
+FROM geekbeacon/php_base:8.1
 
 
 RUN mkdir /app 
