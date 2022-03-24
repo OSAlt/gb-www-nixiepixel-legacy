@@ -1,11 +1,9 @@
 name: Publish Docker image
 
-#on:
-#  push:
-#    branches:
-#      - master
-
 on:
+  push:
+    branches:
+      - master
   create:
     tags:
       - '*'
