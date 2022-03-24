@@ -1,3 +1,4 @@
+[![Build Status](https://github.com/OSAlt/gb-www-nixiepixel-legacy/actions/workflows/build-docker.yml/badge.svg?)](https://github.com/OSAlt/gb-www-nixiepixel-legacy/actions/workflows/build-docker.yml)[![Build Status](https://github.com/OSAlt/gb-www-nixiepixel-legacy/actions/workflows/publish-docker.yml/badge.svg?)](https://github.com/OSAlt/gb-www-nixiepixel-legacy/actions/workflows/publish-docker.yml)
 
 # nixiepixel.com
 **nixiepixel.com** is a website built specifically for NixiePixel.
