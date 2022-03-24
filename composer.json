@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "4.4.1",
-        "fruitcake/laravel-cors": "2.0.2",
+        "fruitcake/laravel-cors": "3.0.0",
         "laravel/framework": "7.30.6",
         "laravel/tinker": "2.4.2"
     },
