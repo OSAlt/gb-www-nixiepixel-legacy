@@ -6,7 +6,7 @@ on:
 
 jobs:
   BuildBaseImage:
-    name: Validate Docker Build
+    name: Validate Docker Base Image Build
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
@@ -28,7 +28,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
   VerifyCodeBase:
-    name: Validate Docker Build
+    name: Validate Docker App Build
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
