@@ -9,7 +9,8 @@ RUN cd /app &&  \
     useradd -ms /bin/bash app_user && \
     chown -R app_user:users /app && \
     cp docker/app/docker_run.sh /app  && \
-    npm install && npm audit fix && \
+    npm install && \ 
+    # npm audit fix && \
     yarn install && \
     yarn upgrade 
 
