@@ -16,5 +16,6 @@ if (env('REDIRECT_HTTPS') === true) {
 }
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('media', 'HomeController@media')->name('media');
 Route::get('stats', 'HomeController@stats')->name('stats');
 Route::get('contact', 'MailController@sendEmail')->name('contact');

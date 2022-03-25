@@ -20,7 +20,7 @@
 
                 <li class="nav-item"><a data-scroll href="#stats" class="nav-link text-light">Stats</a></li>
 
-                <li class="nav-item"><a data-scroll href="#media" class="nav-link text-light">Instagram</a></li>
+                <li class="nav-item"><a data-scroll href="/media" class="nav-link text-light">Media</a></li>
 
                 <li class="nav-item"><a data-scroll href="#geekbeacon" class="nav-link text-light">GeekBeacon</a></li>
 
@@ -37,7 +37,7 @@
 
                 <li class="nav-item"><a data-scroll href="/#stats" class="nav-link text-light">Stats</a></li>
 
-                <li class="nav-item"><a data-scroll href="/#media" class="nav-link text-light">Instagram</a></li>
+                <li class="nav-item"><a data-scroll href="/media" class="nav-link text-light">Media</a></li>
 
                 <li class="nav-item"><a data-scroll href="/#geekbeacon" class="nav-link text-light">GeekBeacon</a></li>
 
