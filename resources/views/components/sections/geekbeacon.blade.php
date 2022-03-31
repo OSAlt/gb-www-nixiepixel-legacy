@@ -5,7 +5,7 @@
             </div>
             <div class="col-10 col-md-5 text-center text-md-left rounded">
                 <p class="text-light">
-                    GeekBeacon got its spark through Nixie Pixel - she had been well known in the Linux and Tech world as a Youtuber and media influencer with multiple channels having a reach of well over 300,000. After 10 years in the game, Nixie decided it was high time for a fellowship of Geeks that shared her geeky values and dedication toward social good. In 2017, her vision birthed a community. Fellow creators, geeks and enthusiasts answered the call to learn and support each other. That tiny little flicker of an idea had turned into the blazing light we warmly refer to today as GeekBeacon. - our Guiding Light to All Things Geek.
+                GeekBeacon is a worldwide community of geeks with a mission focused on building and growing our collective knowledge for the betterment of humanity. In a world with rapidly shifting sociopolitical, economic, and ecological climates we see the marginalized being pushed further to the margins. GeekBeacon strives to make tech and gaming more accessible with projects and research to find new adaptations and innovations. From coding tutorials to community game nights, from chat hangouts to mental health support groups, we draw geeks from all nerddoms together. Sharing information and experiences, guiding one another in creating a collective that strengthens and empowers with an ultimate goal of doing social good. 
 
                 </p>
             </div>

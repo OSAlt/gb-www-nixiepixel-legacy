@@ -92,22 +92,12 @@ let fallbackData = {'facebook' : 50000, 'twitch' : 2000, 'twitter' : 32300, 'ins
 let successCount = 0;
 let count = 0;
 
-// Fetch the data
-fetch(`https://social.geekbeacon.org/api/v1.0/social/count/all`)
-    .then((response) => response.json())
-    .then(function (response) {
-
-        //check if response is valid, if not use fallback data
-        if(response !== "undefined") {
-            data = response;
-        } else {
-            data = fallbackData;
-        }
-            makeChart();
-    })
-    .catch(function (error) {
-        console.log(error);
-    });
+// Fetch the social media feed
+    (function(){
+    var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+    i.src="https://cdn.curator.io/published/11e50052-c727-47df-bd8e-04f717f86d20.js";
+    e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+    })();
 
 /* Stats Chart */
 function makeChart() {
