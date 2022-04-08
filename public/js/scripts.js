@@ -95,6 +95,23 @@ let count = 0;
     e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
 
+// Fetch the data
+fetch(`https://social.geekbeacon.org/api/v1.0/social/count/all`)
+.then((response) => response.json())
+.then(function (response) {
+
+    //check if response is valid, if not use fallback data
+    if(response !== "undefined") {
+        data = response;
+    } else {
+        data = fallbackData;
+    }
+        makeChart();
+})
+.catch(function (error) {
+    console.log(error);
+});
+
 /* Stats Chart */
 function makeChart() {
 
