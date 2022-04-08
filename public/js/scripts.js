@@ -51,6 +51,7 @@ $(document).ready(function() {
 
     // ABOUT SECTION
     animateCSS('#about > h1', 'fadeInDown');
+    animateCSS('#introVideo', 'zoomIn');
     animateCSS('#about > p', 'fadeInLeft');
     animateCSS('#about > hr', 'fadeInRight');
     animateCSS('#about ul li:nth-of-type(1)', 'bounceInUp');
@@ -64,12 +65,7 @@ $(document).ready(function() {
 
     // MEDIA SECTION
     animateCSS('#media > h1', 'flash');
-    animateCSS('#media ul li:nth-of-type(1)', 'fadeIn');
-    animateCSS('#media ul li:nth-of-type(2)', 'fadeIn');
-    animateCSS('#media ul li:nth-of-type(3)', 'fadeIn');
-    animateCSS('#media ul li:nth-of-type(4)', 'fadeIn');
-    animateCSS('#media ul li:nth-of-type(5)', 'fadeIn');
-    animateCSS('#media ul li:nth-of-type(6)', 'fadeIn');
+    animateCSS('#media', 'fadeIn');
 
     // GEEKBEACON SECTION
     animateCSS('#geekbeacon > h1', 'bounce');
