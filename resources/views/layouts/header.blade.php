@@ -1,15 +1,17 @@
-<header class="sticky-top bg-dark rounded-bottom">
+<header class="sticky-top bg-dark rounded-bottom px-2">
     <nav class="navbar navbar-expand-md navbar-dark border-transparent rounded-bottom">
 
         @component('components.social')
         @slot('id', 'socialWeb')
         @endcomponent
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-md-end" id="navbar">
             <ul class="navbar-nav">
+
+            <hr class="d-block d-md-none border border-white">
 
                 {{-- Check if route is the homepage --}}
                 @if(Request::path() == '/')
@@ -45,8 +47,6 @@
 
                 @endif
             </ul>
-
-            <hr class="xxs-divider border-white">
 
             @component('components.social')
             @slot('id', 'socialMobile')
