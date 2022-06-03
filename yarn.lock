@@ -4902,10 +4902,10 @@ labeled-stream-splicer@^2.0.0:
     inherits "^2.0.1"
     stream-splicer "^2.0.0"
 
-laravel-mix@6.0.44:
-  version "6.0.44"
-  resolved "https://registry.npmjs.org/laravel-mix/-/laravel-mix-6.0.44.tgz"
-  integrity sha512-yoszJ2cbISW21ljIkWnx/NIUaBZuKjhk9j9SbSbJi4uB6V8sHv/5SF3fQV50jlKfMOSdXdvdYxYzT9CM5ZBxAw==
+laravel-mix@6.0.45:
+  version "6.0.45"
+  resolved "https://registry.npmjs.org/laravel-mix/-/laravel-mix-6.0.45.tgz"
+  integrity sha512-A3WrDmvI9qjTYsDO9lyaOeJ42mSrTF4S0HDO7YA8fxH8v3QJlc+GknyLJWnVX5ys9tTfYc9lM9kHHr7nQHSKVA==
   dependencies:
     "@babel/core" "^7.15.8"
     "@babel/plugin-proposal-object-rest-spread" "^7.15.6"
