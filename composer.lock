@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1bdf8f75b8bc78bee56f7827d0650a4",
+    "content-hash": "eaa7d683935583712d6d6bb32426b80c",
     "packages": [
         {
             "name": "brick/math",
@@ -651,16 +651,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.21.0",
+            "version": "v9.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a8a529d371faaa38bde087aa6171a5b53a6a8760"
+                "reference": "eee833e46de5301aa533ce1b7f5372d375b00fd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a8a529d371faaa38bde087aa6171a5b53a6a8760",
-                "reference": "a8a529d371faaa38bde087aa6171a5b53a6a8760",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/eee833e46de5301aa533ce1b7f5372d375b00fd8",
+                "reference": "eee833e46de5301aa533ce1b7f5372d375b00fd8",
                 "shasum": ""
             },
             "require": {
@@ -827,7 +827,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-19T14:12:19+00:00"
+            "time": "2022-07-20T13:40:59+00:00"
         },
         {
             "name": "laravel/serializable-closure",
