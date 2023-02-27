@@ -1,4 +1,4 @@
-FROM php:8.2
+FROM php:8.2.3
 RUN  \
     curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get install -y nodejs && \
