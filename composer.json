@@ -17,7 +17,7 @@
         "filp/whoops": "2.15.1",
 	"fakerphp/faker": "1.21.0",
         "mockery/mockery": "1.5.1",
-        "nunomaduro/collision": "7.3.2",
+        "nunomaduro/collision": "7.3.3",
         "phpunit/phpunit": "10.0.18"
     },
     "config": {
