@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   nix_www:
-    image: geekbeacon/nixie_www:latest
+    image: geekbeacon/nixie_www:master
     env_file: .env
     restart: always
     ports:
