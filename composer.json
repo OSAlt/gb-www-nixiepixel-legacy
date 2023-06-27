@@ -10,7 +10,7 @@
     "require": {
         "php": "8.2.3",
         "fruitcake/laravel-cors": "3.0",
-        "laravel/framework": "9.52.9",
+        "laravel/framework": "9.52.10",
         "laravel/tinker": "2.8.1"
     },
     "require-dev": {
