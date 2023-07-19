@@ -16,7 +16,7 @@
     "require-dev": {
         "filp/whoops": "2.15.3",
 	"fakerphp/faker": "1.23.0",
-        "mockery/mockery": "1.6.3",
+        "mockery/mockery": "1.6.4",
         "nunomaduro/collision": "7.7.0",
         "phpunit/phpunit": "10.2.6"
     },
