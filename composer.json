@@ -11,7 +11,7 @@
         "php": "8.2.3",
         "fruitcake/laravel-cors": "3.0",
         "laravel/framework": "9.52.16",
-        "laravel/tinker": "2.9.0"
+        "laravel/tinker": "2.10.0"
     },
     "require-dev": {
         "filp/whoops": "2.15.4",
