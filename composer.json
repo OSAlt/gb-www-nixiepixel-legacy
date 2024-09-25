@@ -14,7 +14,7 @@
         "laravel/tinker": "2.10.0"
     },
     "require-dev": {
-        "filp/whoops": "2.15.4",
+        "filp/whoops": "2.16.0",
 	"fakerphp/faker": "1.23.1",
         "mockery/mockery": "1.6.12",
         "nunomaduro/collision": "7.10.0",
