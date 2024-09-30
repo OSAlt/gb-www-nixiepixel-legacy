@@ -21,7 +21,7 @@ jobs:
           images: geekbeacon/php_base
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v6.8.0
+        uses: docker/build-push-action@v6.9.0
         with:
           context: .
           file: docker/base/Dockerfile
@@ -43,7 +43,7 @@ jobs:
           images: geekbeacon/nixie_www
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v6.8.0
+        uses: docker/build-push-action@v6.9.0
         with:
           context: .
           file: docker/app/Dockerfile
