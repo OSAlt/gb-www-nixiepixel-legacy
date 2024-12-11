@@ -18,7 +18,7 @@
 	"fakerphp/faker": "1.24.1",
         "mockery/mockery": "1.6.12",
         "nunomaduro/collision": "7.11.0",
-        "phpunit/phpunit": "11.4.4"
+        "phpunit/phpunit": "11.5.1"
     },
     "config": {
         "optimize-autoloader": true,
